@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* DDScrollimg_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDScrollimg_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		92424C8374F0FB3A02750F51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AB44C4D2DC9A971403156B9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C21226AED23C9DA397F9EE07 /* DDScrollimg.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DDScrollimg.podspec; path = ../DDScrollimg.podspec; sourceTree = "<group>"; };
+		92424C8374F0FB3A02750F51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AB44C4D2DC9A971403156B9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C21226AED23C9DA397F9EE07 /* DDScrollimg.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDScrollimg.podspec; path = ../DDScrollimg.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE9A4B6A35C7D92D6238D760 /* Pods-DDScrollimg_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDScrollimg_Tests.release.xcconfig"; path = "Target Support Files/Pods-DDScrollimg_Tests/Pods-DDScrollimg_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF9227587AEE80C77B96051B /* Pods_DDScrollimg_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDScrollimg_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F619F2E20D73FE1D69F583D1 /* Pods-DDScrollimg_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDScrollimg_Example.release.xcconfig"; path = "Target Support Files/Pods-DDScrollimg_Example/Pods-DDScrollimg_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				1056DE0FD8B359558566C65B /* Pods-DDScrollimg_Tests.debug.xcconfig */,
 				DE9A4B6A35C7D92D6238D760 /* Pods-DDScrollimg_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,27 @@
+PODS:
+  - DDScrollimg (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDScrollimg (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDScrollimg:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDScrollimg: aeb200e38c4f7705c11e8539ee5f36282ca56bdf
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 397f2f22c9845d68f39e017f98d07ca63f01b02b
+
+COCOAPODS: 1.9.3

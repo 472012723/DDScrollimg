@@ -1,0 +1,11 @@
+framework module DDScrollimg {
+  umbrella header "DDScrollimg.h"
+
+  export *
+  module * { export * }
+}
+
+module DDScrollimg.Swift {
+    header "DDScrollimg-Swift.h"
+    requires objc
+}
